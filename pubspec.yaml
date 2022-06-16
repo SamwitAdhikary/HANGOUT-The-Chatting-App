@@ -1,0 +1,42 @@
+name: hangout_test
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  cached_network_image: null
+  cloud_firestore: null
+  cupertino_icons: null
+  emoji_picker_flutter: ^1.1.2
+  firebase_auth: null
+  firebase_core: null
+  firebase_messaging: ^11.4.0
+  firebase_storage: null
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^9.5.3
+  google_fonts: ^2.3.2
+  google_nav_bar: ^5.0.6
+  google_sign_in: null
+  http: ^0.13.4
+  image_picker: ^0.8.5
+  intl: ^0.17.0
+  page_transition: ^2.0.5
+  pin_code_fields: null
+  shared_preferences: ^2.0.13
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
